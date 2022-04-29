@@ -1,0 +1,68 @@
+.header {
+    padding: 10px 50px;
+    box-shadow: 1px 0px 8px 0px rgb(0 0 0 / 50%);
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.memoriesText {
+   height: 50px
+}
+
+.memoriesLogo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+#signIn, #logout {
+    background: #3f3fd6;
+    color: white;
+    width: 90px;
+    height: 35px;
+}
+
+#logout {
+    background-color: #ff2525;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.signIncontainer {
+    align-items: center;
+    display: flex;
+}
+
+#avatar {
+    background-color: purple;
+}
+
+#name {
+    margin: 0px 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media  screen and (max-width: 600px) {
+    .he {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    .signIncontainer {
+        width: 100%;
+        justify-content: center;
+    }
+}

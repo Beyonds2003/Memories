@@ -1,0 +1,33 @@
+#pagination {
+    margin-top: 15px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    max-width: 350px;
+}
+
+#button {
+    color: white;
+    background: #2222a4;
+    font-family: system-ui;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#pagination2 {
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    max-width: 350px;
+}
+
+#centerDiv {
+    display: flex;
+    justify-content: center;
+}
+
+@media  screen and (max-width: 600px) {
+    #mom {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}

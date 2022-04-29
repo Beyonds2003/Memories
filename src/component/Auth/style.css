@@ -1,0 +1,49 @@
+#container {
+    margin-top: 30px;
+}
+
+#avatar {
+    background-color: #e42a5b;
+}
+
+.name {
+   margin-top: 20px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.MuiOutlinedInput-root {
+    margin: 5px 5px;
+}
+
+#singUp {
+    background: #3f3fd6;
+    color: white;
+    margin: 10px 0px 5px 0px
+}
+
+#google {
+    background: #3f3fd6;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#check {
+    margin: 10px 0px 30px 0px;
+}
+
+.top {
+    padding-top: 20px;
+}
+
+span {
+    cursor: pointer;
+}
+
+#gIcon {
+    margin-right: 10px;
+}
+

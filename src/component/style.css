@@ -1,0 +1,9 @@
+#pad {
+    padding: 0px 20px 0px 0px
+}
+
+@media  screen and (max-width: 600px) {
+   #pad {
+       padding: 0;
+   }
+}
